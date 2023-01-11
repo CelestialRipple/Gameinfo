@@ -1,0 +1,33 @@
+{
+    "name": "koishi-plugin-gameinfo",
+    "description": "**比Steaminfo更强大易用！**查询全平台游戏信息，包括折扣、简介、评分等，无需配置、无需科学、上手即用。",
+    "private": false,
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "author": "rippppp <me@hiripple.com>",
+    "maintainers": [
+        "ripp <me@hiripple.com>"
+    ],
+    "license": "MIT",
+        "description": {
+            "zh": "**比Steaminfo更强大易用！**查询全平台游戏信息，包括折扣、简介、评分等，无需配置、无需科学、上手即用。"
+        }
+    },
+    "keywords": [
+        "koishi",
+        "plugin",
+        "steam",
+        "game",
+        "image"
+    ],
+    "peerDependencies": {
+        "koishi": "^4.9.9"
+    },
+    "dependencies": {
+        "axios": "^1.2.2",
+        "axios-retry": "^3.3.1"
+    }
+}
